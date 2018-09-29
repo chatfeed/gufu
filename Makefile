@@ -10,7 +10,7 @@ all: install
 
 .PHONY: test
 test:
-	sh coverage.sh
+	sh scripts/coverage.sh
 
 .PHONY: fmt
 fmt:
@@ -40,7 +40,7 @@ deps:
 embedmd:
 	embedmd -d *.md
 
-.PHONY: lint
+.PHONY: lintsd
 lint:
 	@hash golint > /dev/null 2>&1; if [ $$? -ne 0 ]; then \
 		go get -u github.com/golang/lint/golint; \

@@ -1,4 +1,3 @@
-Gufu
--------------------
+#Gufu [![Build Status](https://travis-ci.org/chatfeed/gufu.svg?branch=master)](https://travis-ci.org/chatfeed/gufu)[![codecov](https://codecov.io/gh/chatfeed/gufu/branch/master/graph/badge.svg)](https://codecov.io/gh/chatfeed/gufu)[![Go Report Card](https://goreportcard.com/badge/github.com/chatfeed/gufu)](https://goreportcard.com/report/github.com/chatfeed/gufu)[![Release](https://img.shields.io/github/release/gin-gonic/gin.svg?style=flat-square)](https://github.com/gin-gonic/gin/releases)
 
 test
